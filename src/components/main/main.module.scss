@@ -1,0 +1,96 @@
+.main {
+    background-color: #000000;
+}
+
+.programa {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tituloPrograma {
+    height: 78vh;
+    width: 40%;
+
+}
+.textoPrograma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+
+    p {
+        font-size: 18px;
+        line-height: 25.78px;
+        color: #FFFFFF;
+        text-align: left;
+        width: 84%;
+    }
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+
+}
+
+.botaoAssistir{
+    border: solid red;
+    background-color: #FF0707;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 24%;
+
+    p{
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+.botaoFavoritos {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 52%;
+
+    p {
+        color: #000000;
+        font-weight: 500;
+    }
+}
+
+.fundoPrograma {
+    img {
+        width: 59vw;
+    }
+}
+
+.continuarAssistindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 42vh;
+
+    p {
+        color: #FFFFFF;
+    }    
+}
+
+.acompanharProgramas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.borda {
+    border: solid red;
+    width: 80%;
+}
