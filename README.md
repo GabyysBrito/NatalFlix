@@ -19,4 +19,4 @@ Projeto desenvolvido como desafio do curso Vai Na Web. O NatalFlix é uma landin
 - Seção inferior mostrando programas assistidos e a posição onde o usuário parou para continuar assistindo.
 
 # 🌐 Veja o projeto no ar
-[NatalFlix](https://natal-flix-five.vercel.app/)
+🔗Acesse o projeto aqui: [NatalFlix](https://natal-flix-five.vercel.app/)
