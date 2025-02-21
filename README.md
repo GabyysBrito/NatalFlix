@@ -1,8 +1,22 @@
-# React + Vite
+# 🎄 NatalFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como desafio do curso Vai Na Web. O NatalFlix é uma landing page inspirada na interface da Netflix, exibindo uma seleção de filmes temáticos da época de Natal.
 
-Currently, two official plugins are available:
+# 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+
+- SASS
+
+- React
+
+# 🎬 Funcionalidades
+
+- Exibição inicial com opções de menu;
+
+- Destaque para um programa principal na área de novidades;
+
+- Seção inferior mostrando programas assistidos e a posição onde o usuário parou para continuar assistindo.
+
+# 🌐 Veja o projeto no ar
+🔗Acesse o projeto aqui: [NatalFlix](https://natal-flix-five.vercel.app/)
