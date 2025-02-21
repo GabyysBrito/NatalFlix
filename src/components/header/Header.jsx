@@ -14,46 +14,52 @@ export default function Header() {
     return(
         <header className={s.header}>
             
-            <section className={s.perfil}>
-                <img className= {s.chapeuNatal} src={chapeuNatal} alt="" />
-                <img className= {s.perfil} src={perfil} alt="" />
-                <img src={setinha} alt="" />
-            </section>
-
-            <section className={s.busca}>
-                <img src={busca} alt="" />
+            <section className= {s.container}>
+                <section className={s.perfil}>
+                    <img className= {s.chapeuNatal} src={chapeuNatal} alt="Um chapéu do papai noel" />
+                    <img className= {s.fotoPerfil} src={perfil} alt="Uma imagem de perfil redondo de um personagem da série da personagem principal Vandinha" />
+                    <img className= {s.setinha} src={setinha} alt="Icone de um seta pra baixo" />
+                </section>
+                <section className={s.busca}>
+                    <img src={busca} alt="Icone de uma lupa" />
+                </section>
             </section>
 
             <nav className= {s.nav}>
                 <ul>
-                    <li>
+
+                    <li className= {s.icones}>
                         <a href="#">
-                        <img src={iconeCasa} alt="" />
-                        <p>Início</p>
+                            <img className={s.imageIcones} src={iconeCasa} alt="Icone de uma casa" />
+                            <p className= {s.texto}>Início</p>
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#"><img src={iconeFitaFilmes} alt="" />
-                        <p>Filmes</p>
+                    <li className= {s.icones}>
+                        <a href="#">
+                            <img className={s.imageIcones} src={iconeFitaFilmes} alt="Icone de uma fita cassete" />
+                            <p className= {s.texto}>Filmes</p>
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#"><img src={iconeTv} alt="" />
-                        <p>Séries</p>
+                    <li className= {s.icones}>
+                        <a href="#">
+                            <img className={s.imageIcones} src={iconeTv} alt="Icone de uma mini tv com antena" />
+                            <p className= {s.texto}>Séries</p>
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#"><img src={iconeEstrela} alt="" />
-                        <p>Minha Lista</p>  
+                    <li className= {s.icones}>
+                        <a href="#">
+                            <img className={s.imageIcones} src={iconeEstrela} alt="Icone de uma estrela" />
+                            <p className= {s.texto}> Minha Lista</p>  
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#"><img src={iconeEngrenagem} alt="" />
-                        <p>Configurações</p>
+                    <li className= {s.icones}>
+                        <a href="#">
+                            <img className={s.imageIcones} src={iconeEngrenagem} alt="" />
+                            <p className= {s.texto}>Configurações</p>
                         </a>
                     </li>
                 </ul>

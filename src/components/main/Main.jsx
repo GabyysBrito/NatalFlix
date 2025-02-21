@@ -66,21 +66,20 @@ export default function Main() {
             </section>
 
             <section className= {s.continuarAssistindo}>
-                    <p>Continuar Assistndo</p>
-                    
-                    <section className={s.acompanharProgramas}>
+                <p>Continuar Assistindo</p>
 
-                    {
-                        assistindoProgramas.map( (item) => (
-                            <section className= {s.programas}>
-                                <img src={item.imagemAssistir} alt={item.textoAlt} />
-                                <div className= {s.borda}></div>
-                            </section>
-                        ))
-                    }
-                    </section>
+                <section className={s.acompanharProgramas}>
+                {
+                    assistindoProgramas.map( (item) => (
+                        <section className= {s.programas}>
+                            <img src={item.imagemAssistir} alt={item.textoAlt} />
+                            <div className={s.borda}></div>
+                        </section>
+                    ))
+                }
+                </section>
 
-                    <p>Filmes De Terror No Natal</p>
+                <p>Filmes De Terror No Natal</p>
             </section>
         </main>
     )

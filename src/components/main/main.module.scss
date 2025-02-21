@@ -38,13 +38,13 @@
 }
 
 .botaoAssistir{
-    border: solid red;
     background-color: #FF0707;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 8px;
     width: 24%;
+    height: 9vh;
 
     p{
         color: #FFFFFF;
@@ -60,6 +60,7 @@
     justify-content: space-around;
     border-radius: 8px;
     width: 52%;
+    height: 9vh;
 
     p {
         color: #000000;
@@ -80,6 +81,8 @@
     height: 42vh;
 
     p {
+        text-align: center;
+        width: 16%;
         color: #FFFFFF;
     }    
 }
@@ -88,9 +91,51 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
-.borda {
-    border: solid red;
-    width: 80%;
+.borda{
+    border: 3px solid;
+    border-image: linear-gradient(to right,red 80%, white 50%) 1;
+}
+
+@media (max-width:768px) {
+    .main {
+
+        .programa {
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+
+        .tituloPrograma {
+            width: 98%;
+            height: 10%;
+
+            .tituloGrande {
+                width: 92%;
+            }
+        }
+
+        .botaoAssistir {
+            width: 30%;
+            height: 6.5vh;
+        }
+
+        .botaoFavoritos {
+            width: 60%;
+            height: 6.5vh;
+        }
+
+        .fundoPrograma {
+            img{
+                width: 96%;
+            }
+        }
+
+        .continuarAssistindo {
+            display: none;
+        }
+
+    }
 }
